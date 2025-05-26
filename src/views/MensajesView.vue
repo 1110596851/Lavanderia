@@ -34,11 +34,13 @@
 import { onMounted, ref } from 'vue'
 import axios from 'axios'
 
+
+
 const mensajes = ref([])
 
 onMounted(async () => {
     try {
-        const res = await axios.get('http://localhost:3000/contacto')
+        const res = await axios.get(`https://backlavanderia-production.up.railway.app/contacto`)
         mensajes.value = res.data
     } catch (err) {
         console.error('Error al cargar los mensajes', err)

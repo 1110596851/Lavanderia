@@ -35,6 +35,7 @@ import { ref } from 'vue'
 import axios from 'axios'
 import { useRouter } from 'vue-router'
 
+
 const username = ref('')
 const password = ref('')
 const errorMessage = ref('')
@@ -42,7 +43,7 @@ const router = useRouter()
 
 const login = async () => {
   try {
-    const response = await axios.post('http://localhost:3000/auth/login', {
+    const response = await axios.post('https://backlavanderia-production.up.railway.app/auth/login', {
       username: username.value,
       password: password.value,
     })

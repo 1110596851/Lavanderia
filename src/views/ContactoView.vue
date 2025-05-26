@@ -22,6 +22,8 @@
 import { ref } from 'vue'
 import axios from 'axios'
 
+
+
 const nombre = ref('')
 const correo = ref('')
 const telefono = ref('')
@@ -30,7 +32,7 @@ const enviado = ref(false)
 
 const enviarFormulario = async () => {
   try {
-    await axios.post('http://localhost:3000/contacto', {
+    await axios.post(`https://backlavanderia-production.up.railway.app/contacto`, {
       nombre: nombre.value,
       correo: correo.value,
       telefono: telefono.value,

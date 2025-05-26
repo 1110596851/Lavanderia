@@ -48,6 +48,8 @@
 <script>
 import axios from 'axios';
 
+
+
 export default {
   name: 'ListaDomicilios',
   data() {
@@ -61,7 +63,7 @@ export default {
   methods: {
     async cargarDomicilios() {
       try {
-        const res = await axios.get('http://localhost:3000/domicilios');
+        const res = await axios.get('https://backlavanderia-production.up.railway.app/domicilios');
         this.domicilios = res.data;
       } catch (error) {
         console.error('Error cargando domicilios:', error);
@@ -70,7 +72,7 @@ export default {
     },
     async actualizarEstado(domicilio) {
       try {
-        await axios.patch(`http://localhost:3000/domicilios/${domicilio.id}`, {
+        await axios.patch(`https://backlavanderia-production.up.railway.app/domicilios${domicilio.id}`, {
           estado: domicilio.estado,
         });
         // Opcional: mensaje de éxito

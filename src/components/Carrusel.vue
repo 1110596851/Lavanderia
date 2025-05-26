@@ -40,12 +40,12 @@ export default {
       responsiveOptions: [
         {
           breakpoint: "1199px",
-          numVisible: 2,
+          numVisible: 1,
           numScroll: 2,
         },
         {
           breakpoint: "991px",
-          numVisible: 2,
+          numVisible: 1,
           numScroll: 2,
         },
         {

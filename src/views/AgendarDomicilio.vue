@@ -69,6 +69,8 @@
 
 <script>
 import axios from 'axios';
+
+
 export default {
     data() {
         return {
@@ -113,7 +115,7 @@ export default {
                 .map(s => ({ tipo: s.tipo, precio: s.precio, cantidad: s.cantidad }));
 
             try {
-                await axios.post('http://localhost:3000/domicilios', {
+                await axios.post(`https://backlavanderia-production.up.railway.app/domicilios`, {
                     ...this.form,
                     servicios: serviciosSeleccionados
                 });
