@@ -115,7 +115,7 @@ export default {
                 .map(s => ({ tipo: s.tipo, precio: s.precio, cantidad: s.cantidad }));
 
             try {
-                await axios.post(`https://backlavanderia-production.up.railway.app/domicilios`, {
+                await axios.post(`https://back-lavanderia.onrender.com/domicilios`, {
                     ...this.form,
                     servicios: serviciosSeleccionados
                 });

@@ -43,7 +43,7 @@ const router = useRouter()
 
 const login = async () => {
   try {
-    const response = await axios.post('https://backlavanderia-production.up.railway.app/auth/login', {
+    const response = await axios.post('https://back-lavanderia.onrender.com/auth/login', {
       username: username.value,
       password: password.value,
     })

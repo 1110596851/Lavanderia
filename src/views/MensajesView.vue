@@ -40,7 +40,7 @@ const mensajes = ref([])
 
 onMounted(async () => {
     try {
-        const res = await axios.get(`https://backlavanderia-production.up.railway.app/contacto`)
+        const res = await axios.get(`https://back-lavanderia.onrender.com/contacto`)
         mensajes.value = res.data
     } catch (err) {
         console.error('Error al cargar los mensajes', err)

@@ -32,7 +32,7 @@ const enviado = ref(false)
 
 const enviarFormulario = async () => {
   try {
-    await axios.post(`https://backlavanderia-production.up.railway.app/contacto`, {
+    await axios.post(`https://back-lavanderia.onrender.com/contacto`, {
       nombre: nombre.value,
       correo: correo.value,
       telefono: telefono.value,
