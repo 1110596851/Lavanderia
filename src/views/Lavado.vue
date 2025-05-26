@@ -22,7 +22,7 @@
           <i class="pi pi-check-square" style="color: #39A573"></i> Lavado de todo tipo de prendas de vestir.
           <br>
           <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Limpieza de prendas delicadas..
+          <i class="pi pi-check-square" style="color: #39A573"></i> Limpieza de prendas delicadas.
           <br>
           <br>
           <i class="pi pi-check-square" style="color: #39A573"></i> Tratamiento de manchas difíciles, asegurando la
@@ -102,7 +102,7 @@ p {
 
   /* Aplicar estilos solo en pantallas con un ancho máximo de 768px (pantallas pequeñas) */
   .caption {
-    top: 10%;
+    top: 50%;
     margin-left: 6%;
   }
 

@@ -16,29 +16,19 @@
           Ofrecemos un <strong>servicio integral</strong> que incluye:
           <br>
           <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Lavado de todo tipo de prendas de vestir.
+          <i class="pi pi-check-square" style="color: #39A573"></i> Secado de todo tipo de prendas de vestir.
           <br>
           <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Lavado de todo tipo de prendas de vestir.
-          <br>
-          <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Limpieza de prendas delicadas..
-          <br>
-          <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Tratamiento de manchas difíciles, asegurando la
-          limpieza más profunda.
-          <br>
-          <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Uso de detergentes y suavizantes de alta calidad que
-          cuidan tus prendas y el medio ambiente..
+          <i class="pi pi-check-square" style="color: #39A573"></i> Doblado cuidadoso para que tu ropa esté lista para
+          usar o guardar.
           <br>
           <br>
           <i class="pi pi-check-square" style="color: #39A573"></i> El precio del servicio depende del peso de la
-          cantidad
-          total de las prendas.
+          cantidad total de las prendas.
           <br>
           <br>
-          <i class="pi pi-check-square" style="color: #39A573"></i> Por cada 20 Kg tiene un costo de $35.000.
+          <i class="pi pi-check-square" style="color: #39A573"></i> Por cada 20 Kg tiene un costo de $30.000.
+          <br>
           <br>
         </p>
       </div>
