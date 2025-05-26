@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;700&display=swap');
+
+
+
+.fuente-personalizada {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+}
+
+.contenedor{
+  margin: 5rem;
+}
+.contenedor-completo {
+    padding: 5rem;
+  }
+
+.contenedor-lateral {
+    margin-right: 5rem;
+    margin-left: 5rem;
+  }
+
+  p {
+    font-family: "Montserrat", sans-serif; /* Cambia la fuente para los párrafos <p> */
+    font-weight: Light; /* Opcional: para hacer el texto más grueso */
+    text-align: justify;
+    font-weight: 400;
+    font-size: 15px;
+  }
+  
+  
